@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="keyboardtifinagh.meksem.com.keyboardtifinaghflexible"
+
+    android:versionCode="1"
+
+    android:versionName="1.0"
+    android:minSdkVersion="15"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+    <service android:name=".ClavierTifinaghs"
+        android:label="@string/clavier_tifinaghs"
+        android:permission="android.permission.BIND_INPUT_METHOD"
+        >
+        <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+        <intent-filter>
+            <action android:name="android.view.InputMethod" />
+        </intent-filter>
+    </service>
+    </application>
+</manifest>

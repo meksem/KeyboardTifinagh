@@ -1,0 +1,6 @@
+<input-method xmlns:android="http://schemas.android.com/apk/res/android">
+    <subtype
+        android:label="@string/subtype_ber"
+        android:imeSubtypeLocale="ber"
+        android:imeSubtypeMode="clavier" />
+</input-method>
