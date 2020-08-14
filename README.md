@@ -1,7 +1,7 @@
 # KeyboardTifinagh
 clavier en tamazight
 Auteur:	Meksem kamal 
-Projet:	clavier en langue berbere
+Projet:	KeyboardTifinagh
 Versionpremiere :	20181010 
 versionfinale:
 dépôt GitHub:	https://github.com/meksem/KeyboardTifinagh
